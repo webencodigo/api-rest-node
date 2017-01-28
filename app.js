@@ -24,6 +24,9 @@ router.get('/', function(req, res){
 	res.send('Hola desde la api de WebEnCodigo!');
 });
 
+// Le añadimos el prefijo /api a todas nuestras rutas
+app.use('/api', router);
+
 // Le decimos a express que use las rutas establecidas
 app.use(router);
 
