@@ -1,7 +1,7 @@
 {
 	"name": "api-rest-node",
 	"version": "1.0.0",
-	"description": "Ejemplo de api rest con node para webencodigo.com",
+	"description": "Ejemplo de api rest con Node.js, Express y MongoDB para webencodigo.com",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/webencodigo/api-rest-node.git"
